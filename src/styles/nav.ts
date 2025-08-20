@@ -9,8 +9,8 @@ export const navTabBaseProps: TabProps = {
 	fontSize: '14px',
 	lineHeight: '100%',
 	letterSpacing: '0',
-	_focus: { boxShadow: 'none' },
-	_focusVisible: { boxShadow: 'none' },
+	_focus: { boxShadow: 'none', outline: 'none'},
+	_focusVisible: { boxShadow: 'none', outline: 'none'},
 }
 export const navTextBaseProps: TextProps = {
 	color: '#2C3237',
