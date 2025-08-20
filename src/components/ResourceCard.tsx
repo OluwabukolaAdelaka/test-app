@@ -15,14 +15,14 @@ type Props = {
 
 export default function ResourceCard({ resource }: Props) {
   const getIconPath = (id: string) => {
-    if (id === "1" || id === "3") return "public/assets/link-icon.svg";
-    if (id === "2" || id === "4") return "public/assets/video-icon.svg";
-    if (id === "5" || id === "6") return "public/assets/pdf-icon.svg";
+    if (id === "1" || id === "3") return "/assets/link-icon.svg";
+    if (id === "2" || id === "4") return "/assets/video-icon.svg";
+    if (id === "5" || id === "6") return "/assets/pdf-icon.svg";
     return "/assets/link-icon.svg";
   };
 
   const getSvgPath = (id: string) => {
-    return `public/assets/card-${id}.svg`;
+    return `/assets/card-${id}.svg`;
   };
 
   return (
