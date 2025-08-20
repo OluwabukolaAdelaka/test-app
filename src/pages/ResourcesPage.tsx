@@ -22,7 +22,7 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { FiSearch } from "react-icons/fi";
-import filterIcon from "../assets/filter-icon.svg";
+import filterIcon from "../../public/assets/filter-icon.svg";
 import Filters from "../components/Filters";
 import ResourceCard from "../components/ResourceCard";
 import { resources } from "../resources/data";

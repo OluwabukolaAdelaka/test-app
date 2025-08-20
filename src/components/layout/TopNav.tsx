@@ -1,6 +1,6 @@
 import { Avatar, Box, HStack, Tab, TabList, Tabs, Text, Image, Grid, GridItem, Switch, IconButton } from '@chakra-ui/react'
 import { ChevronDownIcon, HamburgerIcon } from '@chakra-ui/icons'
-import logo from '../../assets/logo.svg'
+import logo from '../../../public/assets/logo.svg'
 import { navTabBaseProps, navTabSelectedProps, navTextBaseProps, navTextProfileProps } from '../../styles/nav'
 
 export default function TopNav() {
